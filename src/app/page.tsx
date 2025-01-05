@@ -1,13 +1,18 @@
-import { Navbar } from '@/components/organisms/Navbar'
-import { Main } from '@/components/organisms/Main'
-import { Footer } from '@/components/organisms/Footer'
+import { Navbar } from '@/components/organisms/OrganismNavbar'
+import { Main } from '@/components/organisms/OrganismMain'
+import { Footer } from '@/components/organisms/OrganismFooter'
+
+// import { BearCounter, Controls } from '@/components/organisms/OrganismMain'
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <Navbar />
 
-        <Main />
+      <Main />
+
+      {/* <BearCounter />
+      <Controls /> */}
 
       <Footer />
     </div>
